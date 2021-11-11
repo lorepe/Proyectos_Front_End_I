@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background: color #222222;
+    display: flex;
+    
+}
+
+ul{
+    display: flex;
+
+}
+li{
+    align-items: flex-end;
+}
