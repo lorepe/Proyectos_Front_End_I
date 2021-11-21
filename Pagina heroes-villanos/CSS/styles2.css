@@ -1,0 +1,122 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+a.boton,
+footer {
+  color: white;
+  background-color: #00669f;
+}
+
+.descuento {
+  background-color: #1cd1b0;
+}
+
+header {
+  background-color: #00669f;
+  position: sticky;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  padding: 25px;
+  text-align: left;
+  z-index: 10;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.batman div.fotoPortada {
+  background-image: url(../IMG/backgroundBatman.png);
+  width: 300px;
+  height: 193px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.batman div.fotoPerfil {
+  background-image: url(../IMG/liga-justicia-batman.png);
+  border-radius: 50%;
+  width: 118px;
+  height: 118px;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 73px;
+  left: 90px;
+  margin-bottom: -40px;
+}
+.harley div.fotoPortada {
+  background-image: url(../IMG/backgroundHarley.png);
+  width: 300px;
+  height: 193px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.harley div.fotoPerfil {
+  background-image: url(../IMG/liga-justicia-harley.png);
+  border-radius: 50%;
+  width: 118px;
+  height: 118px;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 73px;
+  left: 90px;
+  margin-bottom: -40px;
+}
+h2 {
+  text-align: center;
+}
+.personaje p {
+  height: 150px;
+  width: 300px;
+  text-align: justify;
+  margin: 0;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+article .personaje.batman {
+  background-color: #f3f3f3;
+  position: absolute;
+}
+
+article {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #f3f3f3;
+}
+a {
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  position: relative;
+  left: 110px;
+  bottom: 20px;
+}
+
+i.fas {
+  color: red;
+  font-size: 30px;
+  position: relative;
+  top: 45px;
+  left: 17px;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+article {
+  flex-wrap: wrap;
+  /*  border: 5px gray solid; */
+}
+footer {
+  margin-top: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  padding: 20px 10px;
+  font-size: 16px;
+  font-weight: normal;
+  color:#FFF9F9;
+  
+}

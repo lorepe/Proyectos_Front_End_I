@@ -1,14 +1,124 @@
+*{
+    margin: 0px;
+    font-family:'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 h1{
-    color: rgb(red, green, blue)
-}
-
-div .boton{
+    color:white;
     
-    padding: 35px;
-
+    /* font-weight: normal; */
+    
+}
+p{
+    width: auto;
+}
+header{
+    background-color: #00669F;
+    box-sizing: border-box;
+    padding: 30px;
+    position: sticky;
+    top:0px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    text-align:left;
+    z-index:10 ;
+    
 }
 
+h2{
+    text-align: center;
+    font-weight: normal;
+}
+.descuento{
+    background-color: #1CD1B0;
+  
 
-article .personaje {
-paddin:    ;
+}
+article.personaje.batman section{
+    width:300px;
+    text-align: justify;
+    background-color: #F3F3F3;
+    position: relative;
+    background-image: url(../IMG/backgroundBatman.png);
+    
+}
+/* main{
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+} */
+section{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+
+
+}
+.fotoPerfil {
+   /*  width:100px;
+    height:100px;
+    border-radius:150px;
+    position:relative;
+    bottom:30px;
+    left: 60px; */
+
+    border-radius: 50%;
+    top: 25%;
+    left: 30%;
+
+}
+/* p{
+    background:  #F3F3F3;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 50px;
+    height: 5px;
+
+} */
+/* div.fotoPortada{
+    background-image: url(../IMG/backgroundBatman.png);
+    background-size: cover;
+    top: 50px;
+   
+} */
+
+/* .fotoPortada{
+    box-sizing: border-box;
+    width: 230px;
+    position: relative;
+    border: 0;
+    margin: 0;
+   
+} */
+.boton{
+    background-color: #00669F;
+   
+    bottom: 10px;
+    right: 20px;
+    left: 100px;
+    text-align: center;
+    width: max-content;
+    padding: 10px;
+    color:white;
+    align-self: center;
+}
+.fas{
+    color: red;
+    position:relative;
+    left: 53px;
+    top:200px;
+}
+header, a, footer{
+    background-color: #00669F;
+}
+a{
+    padding: 10px;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
 }
